@@ -10,8 +10,8 @@ Replace the last line of `index.js`, calling the `drawPixels` method as follows:
 const data = {
  pixelCount: 10, // number of pixels to draw
  gridsToGenerate: 1, // number of PDF grids to generate
- verticalSymmetry: () => true, // function to determine vertical symmetry
- horizontalSymmetry: () => false // function to determine horizontal symmetry
+ verticalSymmetry: () => true, // function to enable vertical symmetry
+ horizontalSymmetry: () => true // function to enable horizontal symmetry
 }
 
 drawPixels(data.pixelCount, data.gridsToGenerate, data.verticalSymmetry, data.horizontalSymmetry);
